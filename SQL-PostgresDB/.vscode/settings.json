@@ -1,0 +1,15 @@
+{
+    "sqltools.connections": [
+    {
+      "name": "MyPostgreSQL",
+      "driver": "PostgreSQL",
+      "database": "greencycle",
+      "username": "postgres",
+      "password": "password",
+      "server": "localhost",
+      "port": 5432,
+      "previewLimit": 50,
+      "isActive": true
+    }
+    ]
+}

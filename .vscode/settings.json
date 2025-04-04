@@ -1,0 +1,19 @@
+{
+    "python.defaultInterpreterPath": "C:\\Users\\ADMIN\\Documents\\venv\\Scripts\\python.exe",
+    "python.pythonPath": "C:\\Users\\ADMIN\\Documents\\venv\\Scripts\\python.exe",
+    "jupyter.jupyterServerType": "local",
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "sqltools.connections": [
+    {
+      "name": "MyPostgreSQL",
+      "driver": "PostgreSQL",
+      "database": "greencycle",
+      "username": "postgres",
+      "password": "password",
+      "server": "localhost",
+      "port": 5432,
+      "previewLimit": 50,
+      "isActive": true
+    }
+    ]
+}
