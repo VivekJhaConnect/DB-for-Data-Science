@@ -40,3 +40,17 @@ SELECT * FROM public.payment ORDER BY price DESC;
 */
 
 SELECT * FROM public.books ORDER BY price DESC;
+
+/* Challenges:
+
+You need to help the Marketing team to work more easily.
+
+The marketing Manager asks you to order the customer list by the last name.
+
+The went to start from 'Z' and work toward 'A'.
+
+In case of the same last name the order should be based on the first name - also from Z to A.
+
+*/
+
+SELECT first_name, last_name, email FROM public.customer ORDER BY last_name DESC, first_name DESC;
