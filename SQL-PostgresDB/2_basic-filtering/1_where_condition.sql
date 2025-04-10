@@ -1,8 +1,8 @@
 -- WHERE condition
 
--- SELECT * FROM public.customer WHERE first_name = 'ADOM';
+SELECT * FROM public.customer WHERE first_name = 'ADOM';
 
--- SELECT * FROM public.customer WHERE first_name = 'John' AND last_name = 'Doe';
+SELECT * FROM public.customer WHERE first_name = 'John' AND last_name = 'Doe';
 
 /* Challenges:
 
@@ -12,9 +12,9 @@ What is the last name of our customer with first name 'ERICA'
 
 */
 
--- SELECT COUNT(*) FROM public.payment WHERE customer_id = 100;
+SELECT COUNT(*) FROM public.payment WHERE customer_id = 100;
 
--- SELECT last_name FROM public.customer WHERE first_name = 'ERICA';
+SELECT last_name FROM public.customer WHERE first_name = 'ERICA';
 
 /* Challenges:
 
@@ -25,9 +25,9 @@ Include payment_id and the amount
 
 */
 
--- SELECT COUNT(*) FROM public.rental WHERE return_date IS NULL;
+SELECT COUNT(*) FROM public.rental WHERE return_date IS NULL;
 
--- SELECT payment_id, amount FROM public.payment WHERE amount <= 2;
+SELECT payment_id, amount FROM public.payment WHERE amount <= 2;
 
 
 /*
@@ -39,3 +39,4 @@ WHERE with AND/OR
 SELECT * FROM public.payment WHERE customer_id = 100 OR customer_id = 101;
 
 SELECT * FROM public.payment WHERE customer_id = 100 AND amount > 2;
+
